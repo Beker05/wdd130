@@ -1,0 +1,165 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f7f9;
+    color: #333;
+}
+
+/* Header Styling */
+header {
+    background-color: #1e3a8a;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+header nav a:hover {
+    color: #ffdf00;
+}
+
+/* Hero Section */
+.hero {
+    position: relative;
+    text-align: center;
+    color: #fff;
+    background-image: url('images/rafting\ trip\ inicio.jpg'); 
+    background-size: cover;
+    background-position: center;
+    padding: 80px 20px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.hero .cta a {
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: #ff4500;
+    color: #fff;
+    border-radius: 25px;
+    font-size: 1.2rem;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.hero .cta a:hover {
+    background-color: #ff6f3c;
+}
+
+/* Trip Descriptions Section */
+.trip-descriptions {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.trip {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    text-align: center;
+}
+
+.trip img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.trip h3 {
+    font-size: 1.5rem;
+    color: #1e3a8a;
+    margin: 15px;
+}
+
+.trip p {
+    padding: 0 15px 15px;
+    color: #666;
+}
+
+.trip:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Trips Table */
+.trips-table {
+    padding: 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.trips-table table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.trips-table th,
+.trips-table td {
+    padding: 15px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.trips-table th {
+    background-color: #1e3a8a;
+    color: #fff;
+    font-weight: bold;
+}
+
+.trips-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.trips-table td {
+    font-size: 1rem;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #1e3a8a;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer .social-media a img {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+    transition: transform 0.3s;
+}
+
+footer .social-media a img:hover {
+    transform: scale(1.2);
+}
+
+footer p {
+    margin: 10px 0;
+}

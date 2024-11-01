@@ -1,0 +1,180 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Afacad Flux', sans-serif;
+    background-color: #f3f4f6;
+    color: #333;
+    line-height: 1.6;
+}
+
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    background-color: #0d3b66;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+header nav a:hover {
+    color: #ffd700;
+}
+
+#logo {
+    height: 50px;
+    transition: transform 0.2s ease-in-out;
+}
+
+#logo:hover {
+    transform: scale(1.1);
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background-image: url('../images/whitewater rafting 2.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.hero article {
+    max-width: 600px;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Company Info */
+.company-info, .employee-profiles, .contact-form {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.company-info h2, .employee-profiles h2, .contact-form h2 {
+    color: #0d3b66;
+    margin-bottom: 20px;
+}
+
+/* Employee Profiles */
+.employee {
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+}
+
+.employee img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.employee img:hover {
+    transform: scale(1.05);
+}
+
+.employee figcaption {
+    margin-top: 10px;
+    font-weight: 600;
+    color: #333;
+}
+
+/* Contact Form */
+.contact-form label {
+    display: block;
+    font-weight: bold;
+    margin: 15px 0 5px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1em;
+}
+
+.contact-form input[type="radio"] {
+    margin-right: 5px;
+}
+
+.contact-form input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.contact-form button[type="submit"] {
+    background-color: #0d3b66;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button[type="submit"]:hover {
+    background-color: #ffd700;
+    color: #333;
+}
+
+/* Footer */
+footer {
+    background-color: #0d3b66;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size: 0.9em;
+}
+
+footer a {
+    color: #ffd700;
+    text-decoration: none;
+}
+
+footer .social-media img {
+    width: 30px;
+    margin: 0 10px;
+    transition: transform 0.2s ease;
+}
+
+footer .social-media img:hover {
+    transform: scale(1.2);
+}
